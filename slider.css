@@ -1,0 +1,294 @@
+*{
+    margin:0;
+    paddng:0;
+    box-sizing:border-box;
+    font-family:'Raleway',sans-serif;
+  }
+  body{
+    background:white;
+
+  }
+  .container{
+text-align: center;
+margin-top: 360px;
+  }
+  .main{
+    position:absolute;
+    height:100vh;
+    width:100%;
+    overflow:hidden;
+    align-items:center;
+  }
+  .main .slider{
+    position:relative;
+    width:600%;
+    height:100%;
+    transition:0.3s linear;
+    overflow:hidden;
+    display:flex;
+  }
+  .main .slider .slide{
+    position:relative;
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    overflow:hidden;
+  }
+  .main .slider .slide:nth-child(1){
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('https://images.squarespace-cdn.com/content/v1/5420d068e4b09194f76b2af6/1454563960960-8PSLWW5WY98MEOZXP6FS/ke17ZwdGBToddI8pDm48kHLF4oPe3oZL8DTxsCzAaosUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2ds_HAHLUq7q3mU7bIo2tmVRZ7w8_B-TiKoRNEHEGD5_KCjLISwBs8eEdxAxTptZAUg/image-asset.png');
+    background-size:100% 100%;
+    background-position:100% 100%;
+    background-attachment:fixed;
+  }
+  .main .slider .slide:nth-child(2){
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('https://images.squarespace-cdn.com/content/v1/5420d068e4b09194f76b2af6/1519762868815-17U2DLKXQVW5ZT2H1OXR/ke17ZwdGBToddI8pDm48kFXrMS4oO59jG8pmb-Py7sF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0gXT-dMa1aSttRsuKQk9sCMiYXvlWaDNYLEiGEQiu6SluDxyuXC8_b33oVVMO8GOGg/252490_20180227151645_1.png');
+    background-size:100% 100%;
+    background-position:100% 100%;
+    background-attachment:fixed;
+    
+    
+  }
+  .main .slider .slide:nth-child(3){
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('https://images.squarespace-cdn.com/content/v1/5420d068e4b09194f76b2af6/1480400676125-4F86AS2L98ERHTH2XRHY/ke17ZwdGBToddI8pDm48kFXrMS4oO59jG8pmb-Py7sF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0gXT-dMa1aSttRsuKQk9sCMiYXvlWaDNYLEiGEQiu6SluDxyuXC8_b33oVVMO8GOGg/image-asset.png');
+    background-size:100% 100%;
+    background-position:100% 100%;
+    background-attachment:fixed;
+  }
+  .main .slider .slide:nth-child(4){
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('https://i.redd.it/kdl4lm4z4n811.png');
+    background-size:100% 100%;
+    background-position:100% 100%;
+    background-attachment:fixed;
+  }
+  .main .slider .slide:nth-child(5){
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('https://wallpapercan.com/download/1152x864/f7f26436/rust-video-game-silhouette-men-outdoor.jpg');
+    background-size:100% 100%;
+    background-position:100% 100%;
+    background-attachment:fixed;
+  }
+  .main .slider .slide:nth-child(6){
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('http://files.facepunch.com/buck2016/July/05/7%20-%20nq9zYhK.png');
+    background-size:100% 100%;
+    background-position:100% 100%;
+    background-attachment:fixed;
+  }
+
+  .main .slider .slide h1{
+    position: relative;
+    top:-26%;
+    left:-10%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    display:block;
+    font-size: 70px;
+    font-weight:700;
+    letter-spacing: 8px;
+    text-align:center;
+    width: 14%;
+    margin-bottom: 20px;
+    animation: animateparagraph 2s 1;
+
+  }
+
+  .main .slider .slide .testing{
+    position: relative;
+     font-size: 27px;
+     font-weight:500;
+     color:#6ab04c;
+     letter-spacing: -1px;
+    text-transform:uppercase;
+    animation: animateparagraph 2s 1;
+  top:-30%;
+  }
+  
+  
+ .main .slider .slide .slide2 {
+    position:relative;
+    text-align:center;
+    left:10%;
+  }
+
+
+
+  .main .slider .slide h2{
+    position: relative;
+    left:7%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    display:block;
+    font-size: 70px;
+    font-weight:700;
+    letter-spacing: 8px;
+    text-align:center;
+    width: 14%;
+    margin-bottom: 20px;
+    animation: animateparagraph 2s 1;
+  }
+  .main .slider .slide h3{
+    position: relative;
+    top:-5%;
+    left:7%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    display:block;
+    font-size: 70px;
+    font-weight:700;
+    letter-spacing: 8px;
+    text-align:center;
+    width: 14%;
+    margin-bottom: 20px;
+    animation: animateparagraph 2s 1;
+  }
+
+  .main .slider .slide h4{
+    position: relative;
+    left:7%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    display:block;
+    font-size: 70px;
+    font-weight:700;
+    letter-spacing: 8px;
+    text-align:center;
+    width: 14%;
+    margin-bottom: 20px;
+    animation: animateparagraph 2s 1;
+  }
+
+  .main .slider .slide h5{
+    position: relative;
+    text-align:center;
+    top:-26%;
+    left:7%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    display:block;
+    font-size: 70px;
+    font-weight:700;
+    letter-spacing: 8px;
+    width: 14%;
+    margin-bottom: 20px;
+    animation: animateparagraph 2s 1;
+
+  }
+ 
+  .main .slider .slide h6{
+    position: relative;
+    text-align:center;
+    top:-26%;
+    left:7%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    display:block;
+    font-size: 70px;
+    font-weight:700;
+    letter-spacing: 8px;
+    width: 14%;
+    margin-bottom: 20px;
+    animation: animateparagraph 2s 1;
+  }
+
+
+  .main .slider .slide .slide2 {
+    position:relative;
+    text-align:center;
+    left:10%;
+  }
+  .main .slider .slide .slide3 {
+    position:relative;
+    text-align:center;
+    left:7%;
+    top:-35%;
+  }
+ 
+  .main .slider .slide.active h2{
+    animation:animateheading 0.5s forwards 1;
+     animation-delay:0.3s;
+ }
+
+
+ 
+.main .slider .slide .p2{
+  position: relative;
+  font-size:27px;
+  font-weight:500;
+  color:#6ab04c;
+  letter-spacing: -1px;
+  text-align:center;
+  text-transform: uppercase;
+  animation: animateparagraph 2s 1;
+  top:40%;
+}
+
+  .main .slider .slide.active h1{
+     animation:animateheading 0.5s forwards 1;
+      animation-delay:0.3s;
+  }
+  
+  @keyframes animateheading{
+    to{
+      margin-right:0;
+    }
+    
+  }
+  
+  .main .slider .slide.active p{
+     animation:animateparagraph 0.5s forwards 1;
+      animation-delay:0.3s;
+  }
+  @keyframes animateparagraph{
+    to{
+      margin-left:0;
+    }
+    
+  }
+
+  .main .slider-btn{
+    position:absolute;
+    z-index:999;
+    bottom:0.2%;
+    right:0;
+    height:60px;
+    width:calc(50px *2);
+    display:flex;
+  }
+  .main .slider-btn a.prev,
+  .main .slider-btn a.next{
+    text-decoration:none;
+    color:#000;
+    background:rgba(255, 255, 255, 0.85);
+    width:inherit;
+    height:inherit;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:1.8em;
+    font-weight:850;
+    transition:0.2s linear;
+  }
+  .main .slider-btn a.prev:hover,
+  .main .slider-btn a.next:hover{
+    background:#f00;
+    color:#fff;
+  }
+   
+.ramme {
+width: 50%;
+height: 50%;
+padding-bottom: 56.25%
+position:relative;
+}
+
+.ramme iframe {
+ 
+  position: absolute;
+  width:50%;
+  height:50%;
+
+}
+
+
